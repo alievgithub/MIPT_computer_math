@@ -17,7 +17,6 @@ dF = []
 
 print('  x0', '     f(x0)')
 
-
 x_tmp = x0
 flag = True
 while abs(x1.subs(x, x0) - x0) > e:
