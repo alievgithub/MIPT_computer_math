@@ -2,14 +2,16 @@ import math
 from math import atan
 from sympy import *
 
-a = 0; b = 1; e = 0.0001; i = 1
+e = 0.0001; i = 1
 
 x = Symbol('x')
-f = atan(x-1) + 2*x
+#f = atan(x-1) + 2*x
+f = 20*x**3 - 4*x**2 - 5*x + 1
 
 df = f.diff(x)
 
-x0 = 0.5
+#x0 = 0.5
+x0 = 0.4
 x1 = x0 - f/df
 X0 = []
 F = []

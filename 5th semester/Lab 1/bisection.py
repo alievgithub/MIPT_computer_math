@@ -1,9 +1,12 @@
 import math
 from math import atan
 
-a = 0; b = 1; e = 0.0001; i = 1
+#a = 0; b = 1; e = 0.0001; i = 1
+a = 0.4; b = 1; e = 0.0001; i = 1
+#def f(x):
+#    return atan(x-1) + 2*x
 def f(x):
-    return atan(x-1) + 2*x
+    return 20*x**3 - 4*x**2 - 5*x + 1
 y1 = f(a); y2 = f(b)
 if (y1 * y2 > 0) or (y1 * y2 == 0):
     print("no solutions")

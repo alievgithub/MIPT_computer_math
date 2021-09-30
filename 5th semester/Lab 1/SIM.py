@@ -1,7 +1,7 @@
 import math
 from math import atan
 
-a = 0; b = 1; e = 0.0001; i = 1
+e = 0.0001; i = 1
 def f(x):
     return atan(x-1) + 2*x
 
